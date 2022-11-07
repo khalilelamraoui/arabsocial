@@ -72,6 +72,21 @@ a:visited{
         display: none;
     }
 }
+@media screen and (min-width: 1199px) {
+    .messages{
+        position: fixed;
+        width: 19%;
+        right: 0;
+        margin-right: 12rem;
+        top: 1;
+    }
+    .nav-menu-wide{
+        position: fixed;
+        width: 19%;
+        left: 1;
+        top: 1;
+    }
+}
 .add-comment:hover{
     cursor:text;
 }
@@ -99,7 +114,7 @@ input[type=search]{
     border-radius: 10px;
 }
 .messages .profiles{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .profiles{
     background-color: #4B4467;
