@@ -18,7 +18,7 @@ body{
 img{
     border: 2px solid #801655;
 }
-a{
+a:link{
     color: #801655;
 }
 .posts img{
