@@ -27,7 +27,10 @@ img{
 .posts span{
     font-family: 'K2D', sans-serif;
 }
-.reactions>a:visited{
+.reactions a{
+    color: #801655;
+}
+.reactions a:visited{
     color: #801655;
 }
 .likes{
